@@ -1,0 +1,211 @@
+/*--------------------------------------------------------------
+# Hero Section
+--------------------------------------------------------------*/
+#hero {
+    width: 100%;
+    height: 100vh;
+    background: url("img/castelo-disney.webp") top right;
+    background-size: cover;
+    position: relative;
+  }
+  
+  #hero:before {
+    content: "";
+    background: rgba(0, 0, 0, 0.65);
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+  }
+  
+  #hero .hero-container {
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0 15px;
+  }
+  
+  #hero h1 {
+    margin: 0 0 10px 0;
+    font-size: 64px;
+    font-family: "Satisfy", serif;
+    color: #fff;
+  }
+  
+  #hero h2 {
+    color: #eee;
+    margin-bottom: 50px;
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }
+  
+  #hero .btn-scroll {
+    transition: 0.4s;
+    color: rgba(255, 255, 255, 0.6);
+    animation: up-down 1s ease-in-out infinite alternate-reverse both;
+  }
+  
+  #hero .btn-scroll i {
+    font-size: 48px;
+  }
+  
+  #hero .btn-scroll:hover {
+    color: rgb(213, 213, 218);
+  }
+  
+  @media (min-width: 1024px) {
+    #hero {
+      background-attachment: fixed;
+    }
+  }
+  
+  @media (max-width: 575px) {
+    #hero h1 {
+      font-size: 40px;
+    }
+    #hero h2 {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+  }
+  
+  @-webkit-keyframes up-down {
+    0% {
+      transform: translateY(5px);
+    }
+    100% {
+      transform: translateY(-5px);
+    }
+  }
+  
+  @keyframes up-down {
+    0% {
+      transform: translateY(5px);
+    }
+    100% {
+      transform: translateY(-5px);
+    }
+}
+
+.nav {
+  background-color: white;
+}
+
+.nav-block {
+    color: gray;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.section-title > h2, p {
+    text-align: center;
+}
+
+#frase-filme{
+    font-size: 1.2em;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: rgb(168, 14, 14);
+}
+
+.creditos{
+  color: white;
+  text-align: center;
+  line-height: 2em;
+  font-weight: 100;
+}
+
+.box-cards{
+  gap: 10px;
+}
+
+.tela-filmes{
+  margin-top: 5rem;
+}
+
+.tela-cadastro{
+  margin-top: 2rem;
+}
+
+.subtitulo{
+  font-size: 64px;
+  font-family: "Satisfy", serif;
+  color: white;
+}
+
+.subtitulo1{
+  font-size: 64px;
+  font-family: "Satisfy", serif;
+}
+
+.titulo-filme{
+  color: white;
+}
+
+.sinopse{
+  color: black;
+}
+
+.link-filme{
+  color: black;
+  text-decoration: none;
+}
+
+.link-filme:hover{
+  color: black;
+  text-decoration: none;
+}
+
+.encanto{
+  background-image: url(img/casita.webp);
+  background-size: cover;
+}
+
+.belaFera{
+  background-image: url(img/belaFera.jpg);
+  background-size: cover;
+}
+
+.enrolados{
+  background-image: url(img/enroladoscapa.jpg);
+  background-size: cover;
+}
+
+.lilo{
+  background-image: url(img/lilostitch.jpg);
+  background-size: cover;
+}
+
+.frozen{
+  background-image: url(img/frozencapa.jpg);
+  background-size: cover;
+}
+
+.luca{
+  background-image: url(img/lucaCapa.jpg);
+  background-size: cover;
+}
+
+.moana{
+  background-image: url(img/moanaCapa.png);
+  background-size: cover;
+}
+
+.incriveis{
+  background-image: url(img/incriveisCapa.jpg);
+  background-size: cover;
+}
+
+.subnave:hover{
+  color: rgb(168, 14, 14);
+}
