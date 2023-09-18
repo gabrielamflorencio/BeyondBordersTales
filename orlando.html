@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/favicon/castelo.png" type="image/x-icon">
+    
+    <!--Conexão com Bootstrap-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <!--Conexão CSS-->
+    <link rel="stylesheet" href="style.css">
+
+    <!--Google Fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Satisfy" rel="stylesheet">
+    <title>Once Upon a Time</title>
+</head>
+<header id="header" class="fixed-top container">
+  <ul class="nav nav-tabs">
+      <li class="nav-item">
+        <a class="nav-link nav-block" href="home.html">Home</a>
+      </li>
+      <li class="nav-item">
+          <a class="nav-link active nav-block" href="filmes.html">Filmes</a>
+        </li>
+      <li class="nav-item">
+        <a class="nav-link nav-block" href="cadastro.html">Cadastro</a>
+      </li>
+    </ul>
+</header>
+<body class="container tela-filmes belaFera">
+    <h2 class="subtitulo titulo-filme">A Bela e a Fera</h2>
+    <br>
+    <section class="row bg-light m-0 p-4 rounded">
+      <div class="col-5">
+            <p class="text-left"><strong>DIREÇÃO:</strong> Gary Trousdale, Kirk Wise</p>
+            <p class="text-left"><strong>ANO DE LANÇAMENTO:</strong> 1991</p>
+            <p class="text-left"><strong>DURAÇÃO:</strong> 1h24min</p>
+            <p class="text-left"><strong>CLASSIFICAÇÃO:</strong> Livre</p>
+            <p class="text-left mb-0"><strong>GÊNERO:</strong></p>
+            <span class="badge badge-pill badge-dark p-2">Animação</span>
+            <span class="badge badge-pill badge-dark p-2">Magia</span>
+            <span class="badge badge-pill badge-dark p-2">Aventura</span>
+            <span class="badge badge-pill badge-dark p-2">Amor</span>
+      </div>
+
+      <div class="col-7 text-right">
+        <iframe width="100%" height="400px" src="https://www.youtube.com/embed/MZsYDpafGTY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      </div>
+    </section>
+    <br>
+    <div class="accordion w-100" id="accordionExample">
+      <div class="card">
+        <div class="card-header" id="headingOne">
+          <h5 class="mb-0">
+            <button class="btn btn-link sinopse" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              Sinopse
+            </button>
+          </h5>
+        </div>
+    
+        <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+          <div class="card-body text-justify">
+            A jovem Bela está cansada da vida provinciana de uma pequena cidade francesa, onde vive também o galã Gastón que, apesar de derreter corações, não consegue conquistá-la com seu jeito grosseiro. Maurice, o pai de Bela, viaja para expor uma de suas invenções e acaba preso em um castelo onde vive uma temível Fera, que precisa encontrar o verdadeiro amor e ser correspondido para quebrar um feitiço e voltar a ser príncipe. Em troca da liberdade do pai, Bela aceita ficar presa no castelo para sempre.
+          </div>
+        </div>
+      </div>
+    
+    <!--JavaScript-->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+<footer class="container-fluid mt-3 bg-dark">
+  <h6 class="creditos">Desenvolvido por Gabriela Florencio</h6>
+</footer>
+</html>
